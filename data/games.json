@@ -1,0 +1,12 @@
+[
+  {
+    "id": "example-game",
+    "title": "Example Game",
+    "desc": "Короткое описание игры. Что это, во что играешь, чем интересно.",
+    "cover": "",
+    "tags": ["arcade", "2d"],
+    "play_url": "games/example-game/index.html",
+    "external_url": "",
+    "date": "2026-01-15"
+  }
+]

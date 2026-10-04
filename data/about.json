@@ -1,0 +1,10 @@
+{
+  "text_ru": "Привет! Я делаю небольшие игры на Godot.\n\nТут я выкладываю свои проекты и пишу заметки о разработке.\n\nСвязаться можно через контакты ниже.",
+  "text_en": "Hi! I make small games in Godot.\n\nHere I publish my projects and write devlogs.\n\nYou can reach me via the contacts below.",
+  "contacts": [
+    { "label": "Telegram", "value": "@your_username", "url": "https://t.me/your_username" },
+    { "label": "Email",    "value": "you@example.com", "url": "mailto:you@example.com" },
+    { "label": "GitHub",   "value": "github.com/you", "url": "https://github.com/you" },
+    { "label": "VK",       "value": "vk.com/you", "url": "https://vk.com/you" }
+  ]
+}

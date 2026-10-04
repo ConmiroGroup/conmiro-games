@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игра — Conmiro Games</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Conmiro Games" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <span class="logo-text" style="display:none;">CONMIRO<span>GAMES</span></span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" data-i18n="nav.games">Игры</a>
+        <a href="blog.html" data-i18n="nav.blog">Блог</a>
+        <a href="about.html" data-i18n="nav.about">Обо мне</a>
+      </nav>
+      <div class="lang-switch">
+        <button data-lang="ru" class="active">RU</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <a href="index.html" class="back-link" data-i18n="game.back">← Назад к играм</a>
+    <section id="game-detail" class="game-detail">
+      <div class="loading" data-i18n="common.loading">Загрузка...</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Conmiro Games</p>
+    </div>
+  </footer>
+
+  <script src="js/lang.js"></script>
+  <script src="js/main.js"></script>
+  <script>renderGameDetail();</script>
+</body>
+</html>
