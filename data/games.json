@@ -1,12 +1,12 @@
 [
   {
-    "id": "example-game",
-    "title": "Example Game",
-    "desc": "Короткое описание игры. Что это, во что играешь, чем интересно.",
-    "cover": "",
-    "tags": ["arcade", "2d"],
-    "play_url": "games/example-game/index.html",
+    "id": "GigaTest",
+    "title": "GigaTest",
+    "desc": "Проверь на сколько ты крутой чеееел!",
+    "cover": "images/Giga_Test_Logo.png",
+    "tags": ["test", "2d"],
+    "play_url": "games/gigatest/Giga Тест.html",
     "external_url": "",
-    "date": "2026-01-15"
+    "date": "2026-10-05"
   }
 ]
