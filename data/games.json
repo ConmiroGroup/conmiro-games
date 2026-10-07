@@ -8,5 +8,15 @@
     "play_url": "games/gigatest/Giga Тест.html",
     "external_url": "",
     "date": "2026-10-05"
+  },
+    {
+    "id": "MultiplayerTest",
+    "title": "MultiplayerTest",
+    "desc": "Тест мультиплеера в браузере",
+    "cover": "images/Giga_Test_Logo.png",
+    "tags": ["dev", "3d","multiplayer"],
+    "play_url": "games/3d multiplayer/3D multiplayer.html",
+    "external_url": "",
+    "date": "2026-10-05"
   }
 ]
